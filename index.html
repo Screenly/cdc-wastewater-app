@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      CDC wastewater data: COVID-19, flu and RSV - Screenly Edge App
+    </title>
+    <link rel="stylesheet" href="/src/style.css" />
+    <script src="screenly.js?version=1"></script>
+  </head>
+  <body>
+    <div id="stage" class="loading">
+      <header class="top">
+        <div class="brand">CDC wastewater data · COVID-19, flu and RSV</div>
+        <h1 class="place" id="place"></h1>
+        <div class="area" id="area"></div>
+        <div class="week" id="week"></div>
+      </header>
+
+      <main class="cards" id="cards"></main>
+
+      <div class="message">
+        <div class="lede" id="lede"></div>
+        <div class="detail" id="detail"></div>
+      </div>
+
+      <footer class="foot">
+        <div class="legend" id="legend"></div>
+        <div class="credit">
+          Virus levels in sewage compared with each site's own baseline. Data:
+          CDC National Wastewater Surveillance System, data.cdc.gov<span
+            id="updated"
+          ></span>
+        </div>
+      </footer>
+    </div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
