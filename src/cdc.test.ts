@@ -74,7 +74,7 @@ describe('normalizeCounty', () => {
 describe('countsUrl', () => {
   test('asks for the whole country with only a date filter', () => {
     expect(whereOf(countsUrl({ kind: 'nation' }, NOW))).toBe(
-      "week_end >= '2026-08-09'",
+      "pathogen_target in ('SARS-CoV-2', 'Influenza A virus', 'RSV') AND week_end >= '2026-08-09'",
     )
   })
 
@@ -122,6 +122,12 @@ describe('summarize', () => {
   test('skips unknown viruses and categories', () => {
     const rsv = summarize(rows)!.series[2]!
     expect(rsv.weeks.at(-1)).toMatchObject({ sites: 6, level: 0 })
+  })
+
+  test('ignores a newer week that only an unknown virus reported', () => {
+    const summary = summarize([...rows, row('2026-11-14', 'Mumps', 'High', 3)])!
+    expect(summary.weekEnd).toBe('2026-11-07')
+    expect(summary.series[0]!.weeks.at(-1)).toMatchObject({ level: 2 })
   })
 
   test('is null when nothing reported', () => {

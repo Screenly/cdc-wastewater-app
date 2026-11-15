@@ -112,7 +112,12 @@ function isoDate(ms: number): string {
 export function countsUrl(scope: Scope, now: number): string {
   // A week of slack past the window, as the latest week can be days old.
   const since = isoDate(now - (WEEKS + 1) * 7 * DAY_MS)
-  const where = [scopeClause(scope), `week_end >= ${literal(since)}`]
+  const viruses = VIRUSES.map((virus) => literal(virus.key)).join(', ')
+  const where = [
+    scopeClause(scope),
+    `pathogen_target in (${viruses})`,
+    `week_end >= ${literal(since)}`,
+  ]
     .filter(Boolean)
     .join(' AND ')
   const params = new URLSearchParams({
@@ -182,7 +187,10 @@ export function summarize(body: unknown): Summary | null {
 
   let latest = ''
   let updated: string | null = null
+  const known = new Set<string>(VIRUSES.map((virus) => virus.key))
   for (const row of rows) {
+    // A virus CDC adds later must not move the window for the three shown.
+    if (!known.has(row.pathogen_target ?? '')) continue
     const week = isoWeek(row.week_end)
     if (week && week > latest) latest = week
     if (typeof row.updated === 'string' && (!updated || row.updated > updated))
