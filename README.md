@@ -22,12 +22,19 @@ It is a text field, not a dropdown, because Screenly limits each setting's
 help text to 1,024 characters and 54 options do not fit. Anything that is not
 a state or territory says "State not recognised" on screen.
 
-`theme_mode` switches between a light and a dark theme.
-
 `county` narrows a state to the sites serving one county, such as
 `Los Angeles`. It needs a state, as county names repeat across states. A
 trailing "County" or "Parish" is ignored. A sewershed that serves several
 counties counts towards each of them.
+
+`theme_mode` switches between a light and a dark theme.
+
+The rest are advanced settings.
+
+`site_id` shows one treatment site by its CDC ID, such as `112`, and overrides
+`state` and `county`. IDs are in the `site` column of the
+[dataset](https://data.cdc.gov/Public-Health-Surveillance/CDC-Wastewater-Viral-Activity-Level-for-SARS-CoV-2/atcp-73re).
+The heading then names the counties the site serves and its population.
 
 `skip_when_no_data` skips the app in the playlist when the area has had no
 reports in the last few months, instead of saying "No recent reports". It uses
@@ -44,13 +51,6 @@ looks like any other day.
 nothing to show, either because nothing is cached yet or because
 `show_cached_data` is off: `skip` (the default) skips the app, `message` says
 it is unavailable.
-
-The rest are advanced settings.
-
-`site_id` shows one treatment site by its CDC ID, such as `112`, and overrides
-`state` and `county`. IDs are in the `site` column of the
-[dataset](https://data.cdc.gov/Public-Health-Surveillance/CDC-Wastewater-Viral-Activity-Level-for-SARS-CoV-2/atcp-73re).
-The heading then names the counties the site serves and its population.
 
 `override_locale` changes how numbers and dates are written (`Nov 7` or
 `7 nov.`). The labels stay in English.
