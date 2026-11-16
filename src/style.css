@@ -1,0 +1,340 @@
+/*
+  The library's stylesheet is deliberately not imported. Its embedded Inter
+  faces are 444 KB, and this app is designed on system-ui.
+*/
+@layer app {
+  :root {
+    --ink: #16181b;
+    --ink-60: rgba(22, 24, 27, 0.66);
+    --ink-35: rgba(22, 24, 27, 0.35);
+    --ink-10: rgba(22, 24, 27, 0.1);
+    --paper: #f3f1ec;
+    --card: #fbfaf7;
+
+    /*
+      CDC's five categories, lowest first. One hue family that darkens with
+      the level, so the order reads without colour vision, and nothing calls a
+      quiet week an alarm. Every level is also written out in words.
+    */
+    --level-0: #cfe0f1;
+    --level-1: #8fb8e0;
+    --level-2: #5b8fcc;
+    --level-3: #4a55a8;
+    --level-4: #3a1d6e;
+  }
+
+  /*
+    Dark: the same hue, but the ramp now brightens with the level, so the
+    highest level stands out from a dark card rather than sinking into it.
+  */
+  :root[data-theme='dark'] {
+    color-scheme: dark;
+    --ink: #eceef1;
+    --ink-60: rgba(236, 238, 241, 0.68);
+    --ink-35: rgba(236, 238, 241, 0.35);
+    --ink-10: rgba(236, 238, 241, 0.12);
+    --paper: #111317;
+    --card: #1a1d23;
+
+    --level-0: #34465f;
+    --level-1: #3d679f;
+    --level-2: #5b8fd6;
+    --level-3: #9a9cf2;
+    --level-4: #d6c2ff;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  /*
+    One unit for the whole design: 1rem is a hundredth of the screen's width,
+    or of its height scaled to 16:9, whichever is smaller. Everything below is
+    in rem, so the layout fills any signage shape.
+  */
+  html {
+    font-size: min(1vw, 1.7778vh);
+  }
+
+  @media (orientation: portrait) {
+    html {
+      font-size: min(1.6vw, 1vh);
+    }
+  }
+
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+  }
+
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font:
+      1.2rem system-ui,
+      'DejaVu Sans',
+      sans-serif;
+  }
+
+  h1,
+  h2 {
+    margin: 0;
+    font: inherit;
+  }
+
+  #stage {
+    position: absolute;
+    inset: 0;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    gap: 2rem;
+    padding: 2.6rem 3.6rem;
+  }
+
+  .brand {
+    color: var(--ink-60);
+    font-size: 1.6rem;
+    font-weight: 600;
+  }
+
+  .place {
+    margin-top: 0.4rem;
+    font-size: 3.4rem;
+    font-weight: 700;
+    line-height: 1.1;
+  }
+
+  .area,
+  .week {
+    margin-top: 0.4rem;
+    color: var(--ink-60);
+    font-size: 1.6rem;
+  }
+
+  .area:empty {
+    display: none;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.4rem;
+    min-height: 0;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    min-height: 0;
+    padding: 2rem;
+    background: var(--card);
+    border: 0.1rem solid var(--ink-10);
+    border-radius: 1.2rem;
+  }
+
+  .virus {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.4rem 1rem;
+  }
+
+  .name {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+
+  .detail {
+    color: var(--ink-60);
+    font-size: 1.3rem;
+  }
+
+  .level {
+    font-size: 4.6rem;
+    font-weight: 700;
+    line-height: 1;
+  }
+
+  .quiet .level {
+    color: var(--ink-60);
+  }
+
+  .meter-steps {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+
+  .step {
+    flex: 1;
+    height: 1.2rem;
+    border: 0.15rem solid var(--ink-35);
+    border-radius: 0.3rem;
+  }
+
+  .step.on {
+    background: var(--tone);
+    border-color: var(--tone);
+  }
+
+  .change {
+    min-height: 1.3em;
+    margin-top: 0.8rem;
+    font-size: 1.7rem;
+  }
+
+  .past {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 1.2rem;
+    min-height: 0;
+  }
+
+  /* No min-height: 0 here, so a short card can never squeeze the bars into the split below. */
+  .history {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+  }
+
+  .bars {
+    display: flex;
+    flex: 1;
+    align-items: flex-end;
+    gap: 0.4rem;
+    min-height: 4rem;
+    border-bottom: 0.15rem solid var(--ink-35);
+  }
+
+  .bar {
+    flex: 1;
+    border-radius: 0.3rem 0.3rem 0 0;
+  }
+
+  .bar.gap {
+    height: 0;
+  }
+
+  .axis {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.6rem;
+    color: var(--ink-60);
+    font-size: 1.2rem;
+  }
+
+  .stack {
+    display: flex;
+    gap: 0.2rem;
+    height: 1.4rem;
+    overflow: hidden;
+    border-radius: 0.3rem;
+  }
+
+  .part {
+    flex-basis: 0;
+  }
+
+  .note {
+    margin-top: 0.6rem;
+    color: var(--ink-60);
+    font-size: 1.3rem;
+  }
+
+  /* Stacked, so the credit stays put whether the legend is filled, empty or hidden. */
+  .foot {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    color: var(--ink-60);
+    font-size: 1.25rem;
+  }
+
+  .legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem 1.8rem;
+    color: var(--ink);
+  }
+
+  .key {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+  }
+
+  .swatch {
+    width: 1.4rem;
+    height: 1.4rem;
+    border-radius: 0.3rem;
+  }
+
+  .message {
+    display: none;
+    align-self: center;
+  }
+
+  .lede {
+    font-size: 4rem;
+    font-weight: 700;
+  }
+
+  .message .detail {
+    margin-top: 1rem;
+    font-size: 2rem;
+  }
+
+  #stage.unconfigured .cards,
+  #stage.empty .cards,
+  #stage.unavailable .cards {
+    display: none;
+  }
+
+  #stage.unconfigured .message,
+  #stage.empty .message,
+  #stage.unavailable .message {
+    display: block;
+  }
+
+  .place:empty,
+  .week:empty {
+    display: none;
+  }
+
+  #stage.loading .legend,
+  #stage.unconfigured .legend,
+  #stage.empty .legend,
+  #stage.unavailable .legend {
+    display: none;
+  }
+
+  #stage.unconfigured .week,
+  #stage.unavailable .week,
+  #stage.unconfigured .credit span,
+  #stage.unavailable .credit span {
+    display: none;
+  }
+
+  @media (orientation: portrait) {
+    .cards {
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(3, 1fr);
+    }
+
+    .card {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto 1fr;
+      gap: 1.6rem 3rem;
+    }
+
+    .virus {
+      grid-column: 1 / -1;
+    }
+  }
+}

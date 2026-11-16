@@ -1,0 +1,135 @@
+---
+syntax: manifest_v1
+description: 'CDC wastewater data for COVID-19, flu and RSV: virus levels for a US state, county or sewershed.'
+icon: https://raw.githubusercontent.com/Screenly/cdc-wastewater-app/main/static/icon.svg
+author: Screenly, Inc.
+categories:
+  - Dashboards
+ready_signal: true
+settings:
+  state:
+    type: string
+    default_value: ''
+    title: State
+    optional: true
+    help_text:
+      schema_version: 1
+      properties:
+        type: string
+        display_order: 1
+        help_text: |
+          A US state or territory, by name or two-letter code, such as California or CA. Leave blank for every reporting site in the United States.
+  theme_mode:
+    type: string
+    default_value: light
+    title: Theme
+    optional: true
+    help_text:
+      schema_version: 1
+      properties:
+        type: select
+        display_order: 2
+        help_text: |
+          Light suits bright rooms and dark suits dim ones.
+        options:
+          - label: Light
+            value: light
+          - label: Dark
+            value: dark
+  county:
+    type: string
+    default_value: ''
+    title: County
+    optional: true
+    help_text:
+      schema_version: 1
+      properties:
+        type: string
+        display_order: 3
+        help_text: |
+          Narrow the state down to the sites serving one county, such as Los Angeles. Needs a state. Leave blank for the whole state.
+  skip_when_no_data:
+    type: string
+    default_value: 'false'
+    title: Skip When No Recent Data
+    optional: true
+    help_text:
+      schema_version: 1
+      properties:
+        type: boolean
+        display_order: 4
+        help_text: |
+          Skip this app in the playlist when CDC has no reports for the chosen area in the last few months, instead of saying so on screen. Needs ScreenlyOS 26.9 or later; other players show the message.
+  show_cached_data:
+    type: string
+    default_value: 'true'
+    title: Show Cached Data
+    optional: true
+    help_text:
+      schema_version: 1
+      properties:
+        type: boolean
+        display_order: 5
+        help_text: |
+          While CDC cannot be reached, keep showing the last data the screen received. CDC publishes weekly, so a short outage goes unnoticed. Turn off to skip the app or show a message instead.
+  when_unreachable:
+    type: string
+    default_value: skip
+    title: When CDC Is Unreachable
+    optional: true
+    help_text:
+      schema_version: 1
+      properties:
+        type: select
+        display_order: 6
+        help_text: |
+          What happens when CDC cannot be reached and there is no cached data to show. Skipping needs ScreenlyOS 26.9 or later; other players show the message.
+        options:
+          - label: Skip the app
+            value: skip
+          - label: Show a message
+            value: message
+  site_id:
+    type: string
+    default_value: ''
+    title: Sewershed ID
+    optional: true
+    help_text:
+      schema_version: 1
+      properties:
+        type: string
+        advanced: true
+        display_order: 7
+        help_text: |
+          Show a single wastewater treatment site by its CDC ID, such as 112. Overrides State and County.
+  override_locale:
+    type: string
+    default_value: en
+    title: Override Locale
+    optional: true
+    help_text:
+      schema_version: 1
+      properties:
+        type: string
+        advanced: true
+        display_order: 8
+        help_text: |
+          Change how numbers and dates are written using a language code such as en, fr, de or pt-BR. Labels stay in English. Unsupported codes fall back to English.
+  display_errors:
+    type: string
+    default_value: 'false'
+    title: Display Errors
+    optional: true
+    help_text:
+      schema_version: 1
+      properties:
+        type: boolean
+        advanced: true
+        display_order: 9
+        help_text: Show errors on screen instead of falling back to the last cached data. For debugging only.
+  sentry_dsn:
+    type: secret
+    title: Sentry Client Key
+    optional: true
+    is_global: true
+    help_text: Sentry Client Key from Sentry SDK for error capturing.
