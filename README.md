@@ -126,10 +126,12 @@ bun run screenshots  # Playwright captures at each signage resolution
 
 ## Screenshots
 
-`bun run screenshots` writes California, Texas and New York (dark theme) into
-`screenshots/` as WebP, at 1920x1080 and 1080x1920. The CDC answers are
-fixtures in `e2e/fixtures/`: real data moved back in whole weeks so the latest
-week ends just before the library's fixed screenshot clock.
+`bun run screenshots` writes WebP files into `screenshots/`. California, the
+default, covers every supported player resolution as
+`california-{width}x{height}.webp`. Texas and New York (dark theme) are shot at
+1920x1080 and 1080x1920 only. The CDC answers are fixtures in `e2e/fixtures/`:
+real data moved back in whole weeks so the latest week ends just before the
+library's fixed screenshot clock.
 
 ## Deployment
 
