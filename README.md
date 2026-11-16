@@ -2,6 +2,8 @@
 
 # CDC Wastewater: Screenly Edge App
 
+![CDC Wastewater App Preview](/screenshots/california-1920x1080.webp)
+
 COVID-19, flu and RSV levels in wastewater for the United States, a state, a
 county or a single treatment site, from the CDC's
 [National Wastewater Surveillance System](https://www.cdc.gov/nwss/). Each
@@ -150,6 +152,13 @@ bun run format
 bun run test         # unit tests for the query, the median and parsing
 bun run screenshots  # Playwright captures at each signage resolution
 ```
+
+## Screenshots
+
+`bun run screenshots` writes California, Texas and New York (dark theme) into
+`screenshots/` as WebP, at 1920x1080 and 1080x1920. The CDC answers are
+fixtures in `e2e/fixtures/`: real data moved back in whole weeks so the latest
+week ends just before the library's fixed screenshot clock.
 
 ## Deployment
 

@@ -1,0 +1,996 @@
+[
+  {
+    "week_end": "2025-02-08T00:00:00.000",
+    "pathogen_target": "RSV",
+    "site_wval_category": "Moderate",
+    "sites": "3",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-02-01T00:00:00.000",
+    "pathogen_target": "SARS-CoV-2",
+    "site_wval_category": "High",
+    "sites": "25",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2024-12-07T00:00:00.000",
+    "pathogen_target": "SARS-CoV-2",
+    "site_wval_category": "Very High",
+    "sites": "29",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-02-15T00:00:00.000",
+    "pathogen_target": "Influenza A virus",
+    "site_wval_category": "Moderate",
+    "sites": "28",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2024-12-07T00:00:00.000",
+    "pathogen_target": "SARS-CoV-2",
+    "site_wval_category": "Very Low",
+    "sites": "1",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2024-11-30T00:00:00.000",
+    "pathogen_target": "SARS-CoV-2",
+    "site_wval_category": "Moderate",
+    "sites": "29",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-01-25T00:00:00.000",
+    "pathogen_target": "Influenza A virus",
+    "site_wval_category": "Very Low",
+    "sites": "6",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2024-12-07T00:00:00.000",
+    "pathogen_target": "Influenza A virus",
+    "site_wval_category": "Low",
+    "sites": "8",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-01-04T00:00:00.000",
+    "pathogen_target": "Influenza A virus",
+    "site_wval_category": "Low",
+    "sites": "20",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-01-18T00:00:00.000",
+    "pathogen_target": "Influenza A virus",
+    "site_wval_category": "High",
+    "sites": "3",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2024-11-23T00:00:00.000",
+    "pathogen_target": "SARS-CoV-2",
+    "site_wval_category": "Very Low",
+    "sites": "4",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-02-01T00:00:00.000",
+    "pathogen_target": "Influenza A virus",
+    "site_wval_category": "Very High",
+    "sites": "1",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-01-25T00:00:00.000",
+    "pathogen_target": "RSV",
+    "site_wval_category": "Very Low",
+    "sites": "47",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2024-11-30T00:00:00.000",
+    "pathogen_target": "SARS-CoV-2",
+    "site_wval_category": "High",
+    "sites": "21",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2024-11-30T00:00:00.000",
+    "pathogen_target": "Influenza A virus",
+    "site_wval_category": "Low",
+    "sites": "5",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-01-25T00:00:00.000",
+    "pathogen_target": "RSV",
+    "site_wval_category": "Low",
+    "sites": "9",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2024-12-28T00:00:00.000",
+    "pathogen_target": "SARS-CoV-2",
+    "site_wval_category": "Very High",
+    "sites": "33",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2024-11-23T00:00:00.000",
+    "pathogen_target": "SARS-CoV-2",
+    "site_wval_category": "Moderate",
+    "sites": "22",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2024-12-07T00:00:00.000",
+    "pathogen_target": "Influenza A virus",
+    "site_wval_category": "Very Low",
+    "sites": "70",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2024-12-14T00:00:00.000",
+    "pathogen_target": "RSV",
+    "site_wval_category": "Very Low",
+    "sites": "77",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-02-15T00:00:00.000",
+    "pathogen_target": "RSV",
+    "site_wval_category": "High",
+    "sites": "1",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2024-12-21T00:00:00.000",
+    "pathogen_target": "Influenza A virus",
+    "site_wval_category": "Very Low",
+    "sites": "58",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-01-04T00:00:00.000",
+    "pathogen_target": "RSV",
+    "site_wval_category": "Low",
+    "sites": "4",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-01-11T00:00:00.000",
+    "pathogen_target": "Influenza A virus",
+    "site_wval_category": "High",
+    "sites": "2",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-01-04T00:00:00.000",
+    "pathogen_target": "Influenza A virus",
+    "site_wval_category": "Very Low",
+    "sites": "25",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-01-25T00:00:00.000",
+    "pathogen_target": "SARS-CoV-2",
+    "site_wval_category": "High",
+    "sites": "22",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2024-11-23T00:00:00.000",
+    "pathogen_target": "Influenza A virus",
+    "site_wval_category": "Low",
+    "sites": "3",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2024-12-28T00:00:00.000",
+    "pathogen_target": "Influenza A virus",
+    "site_wval_category": "Moderate",
+    "sites": "6",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-02-08T00:00:00.000",
+    "pathogen_target": "SARS-CoV-2",
+    "site_wval_category": "High",
+    "sites": "16",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-01-11T00:00:00.000",
+    "pathogen_target": "SARS-CoV-2",
+    "site_wval_category": "Very High",
+    "sites": "23",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-02-01T00:00:00.000",
+    "pathogen_target": "RSV",
+    "site_wval_category": "Low",
+    "sites": "20",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2024-12-21T00:00:00.000",
+    "pathogen_target": "RSV",
+    "site_wval_category": "Very Low",
+    "sites": "75",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2024-11-30T00:00:00.000",
+    "pathogen_target": "Influenza A virus",
+    "site_wval_category": "High",
+    "sites": "1",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2024-12-07T00:00:00.000",
+    "pathogen_target": "SARS-CoV-2",
+    "site_wval_category": "Low",
+    "sites": "4",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-01-11T00:00:00.000",
+    "pathogen_target": "RSV",
+    "site_wval_category": "Moderate",
+    "sites": "1",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2024-12-14T00:00:00.000",
+    "pathogen_target": "Influenza A virus",
+    "site_wval_category": "Very Low",
+    "sites": "61",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2024-11-30T00:00:00.000",
+    "pathogen_target": "Influenza A virus",
+    "site_wval_category": "Very Low",
+    "sites": "73",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2024-12-28T00:00:00.000",
+    "pathogen_target": "SARS-CoV-2",
+    "site_wval_category": "Moderate",
+    "sites": "5",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-01-11T00:00:00.000",
+    "pathogen_target": "RSV",
+    "site_wval_category": "Low",
+    "sites": "9",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-02-08T00:00:00.000",
+    "pathogen_target": "Influenza A virus",
+    "site_wval_category": "Very Low",
+    "sites": "4",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-01-11T00:00:00.000",
+    "pathogen_target": "SARS-CoV-2",
+    "site_wval_category": "Moderate",
+    "sites": "9",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2024-11-30T00:00:00.000",
+    "pathogen_target": "RSV",
+    "site_wval_category": "Moderate",
+    "sites": "1",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-02-08T00:00:00.000",
+    "pathogen_target": "SARS-CoV-2",
+    "site_wval_category": "Moderate",
+    "sites": "27",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-01-18T00:00:00.000",
+    "pathogen_target": "RSV",
+    "site_wval_category": "Very Low",
+    "sites": "47",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-01-11T00:00:00.000",
+    "pathogen_target": "Influenza A virus",
+    "site_wval_category": "Low",
+    "sites": "30",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-01-18T00:00:00.000",
+    "pathogen_target": "SARS-CoV-2",
+    "site_wval_category": "High",
+    "sites": "20",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-01-04T00:00:00.000",
+    "pathogen_target": "SARS-CoV-2",
+    "site_wval_category": "High",
+    "sites": "23",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-01-25T00:00:00.000",
+    "pathogen_target": "Influenza A virus",
+    "site_wval_category": "Moderate",
+    "sites": "28",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-01-04T00:00:00.000",
+    "pathogen_target": "SARS-CoV-2",
+    "site_wval_category": "Low",
+    "sites": "1",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-01-18T00:00:00.000",
+    "pathogen_target": "SARS-CoV-2",
+    "site_wval_category": "Very Low",
+    "sites": "1",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2024-11-30T00:00:00.000",
+    "pathogen_target": "Influenza A virus",
+    "site_wval_category": "Moderate",
+    "sites": "1",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-01-25T00:00:00.000",
+    "pathogen_target": "RSV",
+    "site_wval_category": "Moderate",
+    "sites": "1",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2024-12-21T00:00:00.000",
+    "pathogen_target": "Influenza A virus",
+    "site_wval_category": "Low",
+    "sites": "20",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-02-15T00:00:00.000",
+    "pathogen_target": "Influenza A virus",
+    "site_wval_category": "Low",
+    "sites": "13",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2024-12-21T00:00:00.000",
+    "pathogen_target": "RSV",
+    "site_wval_category": "Low",
+    "sites": "4",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-01-04T00:00:00.000",
+    "pathogen_target": "Influenza A virus",
+    "site_wval_category": "High",
+    "sites": "1",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-01-04T00:00:00.000",
+    "pathogen_target": "RSV",
+    "site_wval_category": "Moderate",
+    "sites": "1",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-02-15T00:00:00.000",
+    "pathogen_target": "Influenza A virus",
+    "site_wval_category": "Very Low",
+    "sites": "1",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-02-01T00:00:00.000",
+    "pathogen_target": "SARS-CoV-2",
+    "site_wval_category": "Moderate",
+    "sites": "20",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2024-12-28T00:00:00.000",
+    "pathogen_target": "RSV",
+    "site_wval_category": "Low",
+    "sites": "7",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-02-01T00:00:00.000",
+    "pathogen_target": "RSV",
+    "site_wval_category": "Very Low",
+    "sites": "43",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-02-15T00:00:00.000",
+    "pathogen_target": "Influenza A virus",
+    "site_wval_category": "High",
+    "sites": "20",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-02-08T00:00:00.000",
+    "pathogen_target": "SARS-CoV-2",
+    "site_wval_category": "Very High",
+    "sites": "18",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-02-08T00:00:00.000",
+    "pathogen_target": "Influenza A virus",
+    "site_wval_category": "Moderate",
+    "sites": "30",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2024-11-30T00:00:00.000",
+    "pathogen_target": "RSV",
+    "site_wval_category": "Low",
+    "sites": "4",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2024-12-14T00:00:00.000",
+    "pathogen_target": "SARS-CoV-2",
+    "site_wval_category": "High",
+    "sites": "28",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2024-11-30T00:00:00.000",
+    "pathogen_target": "SARS-CoV-2",
+    "site_wval_category": "Very Low",
+    "sites": "1",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2024-12-14T00:00:00.000",
+    "pathogen_target": "SARS-CoV-2",
+    "site_wval_category": "Very High",
+    "sites": "41",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2024-12-14T00:00:00.000",
+    "pathogen_target": "SARS-CoV-2",
+    "site_wval_category": "Low",
+    "sites": "5",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2024-12-21T00:00:00.000",
+    "pathogen_target": "SARS-CoV-2",
+    "site_wval_category": "High",
+    "sites": "18",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-02-01T00:00:00.000",
+    "pathogen_target": "Influenza A virus",
+    "site_wval_category": "High",
+    "sites": "7",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-01-18T00:00:00.000",
+    "pathogen_target": "RSV",
+    "site_wval_category": "Moderate",
+    "sites": "2",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-02-01T00:00:00.000",
+    "pathogen_target": "SARS-CoV-2",
+    "site_wval_category": "Very High",
+    "sites": "14",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2024-12-14T00:00:00.000",
+    "pathogen_target": "RSV",
+    "site_wval_category": "Low",
+    "sites": "3",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-02-01T00:00:00.000",
+    "pathogen_target": "Influenza A virus",
+    "site_wval_category": "Very Low",
+    "sites": "5",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2024-12-07T00:00:00.000",
+    "pathogen_target": "SARS-CoV-2",
+    "site_wval_category": "Moderate",
+    "sites": "20",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-02-15T00:00:00.000",
+    "pathogen_target": "SARS-CoV-2",
+    "site_wval_category": "High",
+    "sites": "25",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2024-12-14T00:00:00.000",
+    "pathogen_target": "Influenza A virus",
+    "site_wval_category": "Moderate",
+    "sites": "2",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2024-12-14T00:00:00.000",
+    "pathogen_target": "SARS-CoV-2",
+    "site_wval_category": "Moderate",
+    "sites": "7",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-01-25T00:00:00.000",
+    "pathogen_target": "SARS-CoV-2",
+    "site_wval_category": "Moderate",
+    "sites": "20",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-02-01T00:00:00.000",
+    "pathogen_target": "SARS-CoV-2",
+    "site_wval_category": "Low",
+    "sites": "5",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-01-11T00:00:00.000",
+    "pathogen_target": "SARS-CoV-2",
+    "site_wval_category": "High",
+    "sites": "20",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-01-25T00:00:00.000",
+    "pathogen_target": "SARS-CoV-2",
+    "site_wval_category": "Low",
+    "sites": "1",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-01-25T00:00:00.000",
+    "pathogen_target": "SARS-CoV-2",
+    "site_wval_category": "Very Low",
+    "sites": "1",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2024-12-07T00:00:00.000",
+    "pathogen_target": "SARS-CoV-2",
+    "site_wval_category": "High",
+    "sites": "25",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-02-15T00:00:00.000",
+    "pathogen_target": "SARS-CoV-2",
+    "site_wval_category": "Moderate",
+    "sites": "20",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2024-11-23T00:00:00.000",
+    "pathogen_target": "SARS-CoV-2",
+    "site_wval_category": "High",
+    "sites": "23",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2024-12-07T00:00:00.000",
+    "pathogen_target": "RSV",
+    "site_wval_category": "Very Low",
+    "sites": "72",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2024-12-07T00:00:00.000",
+    "pathogen_target": "RSV",
+    "site_wval_category": "Moderate",
+    "sites": "1",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2024-11-23T00:00:00.000",
+    "pathogen_target": "RSV",
+    "site_wval_category": "Low",
+    "sites": "9",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-01-11T00:00:00.000",
+    "pathogen_target": "Influenza A virus",
+    "site_wval_category": "Very Low",
+    "sites": "11",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2024-12-21T00:00:00.000",
+    "pathogen_target": "SARS-CoV-2",
+    "site_wval_category": "Very High",
+    "sites": "44",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-01-18T00:00:00.000",
+    "pathogen_target": "Influenza A virus",
+    "site_wval_category": "Low",
+    "sites": "26",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2024-11-23T00:00:00.000",
+    "pathogen_target": "SARS-CoV-2",
+    "site_wval_category": "Very High",
+    "sites": "16",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-02-15T00:00:00.000",
+    "pathogen_target": "RSV",
+    "site_wval_category": "Moderate",
+    "sites": "5",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-01-25T00:00:00.000",
+    "pathogen_target": "Influenza A virus",
+    "site_wval_category": "High",
+    "sites": "3",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-01-11T00:00:00.000",
+    "pathogen_target": "SARS-CoV-2",
+    "site_wval_category": "Low",
+    "sites": "2",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2024-11-30T00:00:00.000",
+    "pathogen_target": "RSV",
+    "site_wval_category": "Very Low",
+    "sites": "75",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-01-11T00:00:00.000",
+    "pathogen_target": "RSV",
+    "site_wval_category": "Very Low",
+    "sites": "44",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-02-08T00:00:00.000",
+    "pathogen_target": "RSV",
+    "site_wval_category": "Very Low",
+    "sites": "49",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-02-15T00:00:00.000",
+    "pathogen_target": "Influenza A virus",
+    "site_wval_category": "Very High",
+    "sites": "6",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-02-15T00:00:00.000",
+    "pathogen_target": "RSV",
+    "site_wval_category": "Low",
+    "sites": "16",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-01-25T00:00:00.000",
+    "pathogen_target": "SARS-CoV-2",
+    "site_wval_category": "Very High",
+    "sites": "13",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2024-11-23T00:00:00.000",
+    "pathogen_target": "RSV",
+    "site_wval_category": "Very Low",
+    "sites": "71",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2024-12-28T00:00:00.000",
+    "pathogen_target": "SARS-CoV-2",
+    "site_wval_category": "Very Low",
+    "sites": "1",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-02-01T00:00:00.000",
+    "pathogen_target": "SARS-CoV-2",
+    "site_wval_category": "Very Low",
+    "sites": "1",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-02-01T00:00:00.000",
+    "pathogen_target": "RSV",
+    "site_wval_category": "Moderate",
+    "sites": "2",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2024-11-23T00:00:00.000",
+    "pathogen_target": "SARS-CoV-2",
+    "site_wval_category": "Low",
+    "sites": "15",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2024-12-28T00:00:00.000",
+    "pathogen_target": "RSV",
+    "site_wval_category": "Very Low",
+    "sites": "47",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2024-12-21T00:00:00.000",
+    "pathogen_target": "SARS-CoV-2",
+    "site_wval_category": "Low",
+    "sites": "4",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-01-04T00:00:00.000",
+    "pathogen_target": "SARS-CoV-2",
+    "site_wval_category": "Moderate",
+    "sites": "8",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2024-11-30T00:00:00.000",
+    "pathogen_target": "SARS-CoV-2",
+    "site_wval_category": "Very High",
+    "sites": "19",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2024-11-23T00:00:00.000",
+    "pathogen_target": "Influenza A virus",
+    "site_wval_category": "Very Low",
+    "sites": "77",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2024-12-21T00:00:00.000",
+    "pathogen_target": "SARS-CoV-2",
+    "site_wval_category": "Moderate",
+    "sites": "13",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-01-18T00:00:00.000",
+    "pathogen_target": "Influenza A virus",
+    "site_wval_category": "Moderate",
+    "sites": "15",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-01-04T00:00:00.000",
+    "pathogen_target": "SARS-CoV-2",
+    "site_wval_category": "Very High",
+    "sites": "22",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2024-12-14T00:00:00.000",
+    "pathogen_target": "RSV",
+    "site_wval_category": "Moderate",
+    "sites": "1",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-02-01T00:00:00.000",
+    "pathogen_target": "Influenza A virus",
+    "site_wval_category": "Moderate",
+    "sites": "34",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-01-25T00:00:00.000",
+    "pathogen_target": "Influenza A virus",
+    "site_wval_category": "Low",
+    "sites": "20",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-02-01T00:00:00.000",
+    "pathogen_target": "Influenza A virus",
+    "site_wval_category": "Low",
+    "sites": "18",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2024-11-30T00:00:00.000",
+    "pathogen_target": "SARS-CoV-2",
+    "site_wval_category": "Low",
+    "sites": "10",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-02-15T00:00:00.000",
+    "pathogen_target": "SARS-CoV-2",
+    "site_wval_category": "Very High",
+    "sites": "16",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-01-18T00:00:00.000",
+    "pathogen_target": "SARS-CoV-2",
+    "site_wval_category": "Very High",
+    "sites": "19",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-01-11T00:00:00.000",
+    "pathogen_target": "Influenza A virus",
+    "site_wval_category": "Moderate",
+    "sites": "11",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2024-12-21T00:00:00.000",
+    "pathogen_target": "Influenza A virus",
+    "site_wval_category": "Moderate",
+    "sites": "1",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-01-04T00:00:00.000",
+    "pathogen_target": "Influenza A virus",
+    "site_wval_category": "Moderate",
+    "sites": "8",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-02-15T00:00:00.000",
+    "pathogen_target": "RSV",
+    "site_wval_category": "Very Low",
+    "sites": "46",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-02-08T00:00:00.000",
+    "pathogen_target": "RSV",
+    "site_wval_category": "Low",
+    "sites": "14",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-01-18T00:00:00.000",
+    "pathogen_target": "RSV",
+    "site_wval_category": "Low",
+    "sites": "5",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-01-18T00:00:00.000",
+    "pathogen_target": "SARS-CoV-2",
+    "site_wval_category": "Moderate",
+    "sites": "14",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2024-12-28T00:00:00.000",
+    "pathogen_target": "Influenza A virus",
+    "site_wval_category": "Low",
+    "sites": "15",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-01-04T00:00:00.000",
+    "pathogen_target": "RSV",
+    "site_wval_category": "Very Low",
+    "sites": "49",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2024-12-07T00:00:00.000",
+    "pathogen_target": "RSV",
+    "site_wval_category": "Low",
+    "sites": "6",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2024-12-14T00:00:00.000",
+    "pathogen_target": "Influenza A virus",
+    "site_wval_category": "Low",
+    "sites": "18",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2024-12-28T00:00:00.000",
+    "pathogen_target": "Influenza A virus",
+    "site_wval_category": "Very Low",
+    "sites": "33",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-02-08T00:00:00.000",
+    "pathogen_target": "Influenza A virus",
+    "site_wval_category": "Low",
+    "sites": "21",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-02-15T00:00:00.000",
+    "pathogen_target": "SARS-CoV-2",
+    "site_wval_category": "Low",
+    "sites": "7",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2024-12-07T00:00:00.000",
+    "pathogen_target": "Influenza A virus",
+    "site_wval_category": "Moderate",
+    "sites": "1",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-02-08T00:00:00.000",
+    "pathogen_target": "SARS-CoV-2",
+    "site_wval_category": "Low",
+    "sites": "5",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-01-18T00:00:00.000",
+    "pathogen_target": "Influenza A virus",
+    "site_wval_category": "Very Low",
+    "sites": "10",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2024-12-28T00:00:00.000",
+    "pathogen_target": "SARS-CoV-2",
+    "site_wval_category": "High",
+    "sites": "15",
+    "updated": "2025-02-19T09:00:00.000"
+  },
+  {
+    "week_end": "2025-02-08T00:00:00.000",
+    "pathogen_target": "Influenza A virus",
+    "site_wval_category": "High",
+    "sites": "11",
+    "updated": "2025-02-19T09:00:00.000"
+  }
+]
