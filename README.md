@@ -2,7 +2,7 @@
 
 # CDC Wastewater: Screenly Edge App
 
-![CDC Wastewater App Preview](/screenshots/california-1920x1080.webp)
+![CDC Wastewater App Preview](screenshots/california-1920x1080.webp)
 
 COVID-19, flu and RSV levels in wastewater for the United States, a state, a
 county or a single treatment site, from the CDC's
