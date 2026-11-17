@@ -2,6 +2,8 @@
 
 # CDC Wastewater: Screenly Edge App
 
+![CDC Wastewater App Preview](screenshots/california-1920x1080.webp)
+
 COVID-19, flu and RSV levels in wastewater for the United States, a state, a
 county or a single treatment site, from the CDC's
 [National Wastewater Surveillance System](https://www.cdc.gov/nwss/). Each
@@ -16,47 +18,18 @@ site's own baseline. They are not case counts.
 
 ## Settings
 
-`state` is a US state or territory, by name or two-letter code (`California`
-or `CA`). Left blank, the screen covers every reporting site in the country.
-It is a text field, not a dropdown, because Screenly limits each setting's
-help text to 1,024 characters and 54 options do not fit. Anything that is not
-a state or territory says "State not recognised" on screen.
-
-`theme_mode` switches between a light and a dark theme.
-
-`county` narrows a state to the sites serving one county, such as
-`Los Angeles`. It needs a state, as county names repeat across states. A
-trailing "County" or "Parish" is ignored. A sewershed that serves several
-counties counts towards each of them.
-
-`skip_when_no_data` skips the app in the playlist when the area has had no
-reports in the last few months, instead of saying "No recent reports". It uses
-`screenly.signalAbort()`, which ScreenlyOS players have had since 26.9. Browsers
-and other players do not have it, and show the message instead. A county or
-site ID that CDC has never had a site for always shows "No sites found", so a
-misspelt name is seen and fixed rather than skipped.
-
-`show_cached_data` (on by default) keeps the last data the screen received on
-screen while CDC cannot be reached. CDC publishes weekly, so a short outage
-looks like any other day.
-
-`when_unreachable` decides what happens when CDC cannot be reached and there is
-nothing to show, either because nothing is cached yet or because
-`show_cached_data` is off: `skip` (the default) skips the app, `message` says
-it is unavailable.
-
-The rest are advanced settings.
-
-`site_id` shows one treatment site by its CDC ID, such as `112`, and overrides
-`state` and `county`. IDs are in the `site` column of the
-[dataset](https://data.cdc.gov/Public-Health-Surveillance/CDC-Wastewater-Viral-Activity-Level-for-SARS-CoV-2/atcp-73re).
-The heading then names the counties the site serves and its population.
-
-`override_locale` changes how numbers and dates are written (`Nov 7` or
-`7 nov.`). The labels stay in English.
-
-`display_errors` shows errors on screen instead of falling back to cached data
-or skipping. It is for debugging only.
+| Setting             | Default | Advanced | Description                                                                                    |
+| ------------------- | ------- | -------- | ---------------------------------------------------------------------------------------------- |
+| `state`             | blank   | No       | US state or territory, by name or code (`California` or `CA`). Blank covers the whole country. |
+| `county`            | blank   | No       | One county within the state, such as `Los Angeles`. Needs a state.                             |
+| `theme_mode`        | `light` | No       | `light` or `dark`.                                                                             |
+| `site_id`           | blank   | Yes      | One treatment site by its CDC ID, such as `112`. Overrides `state` and `county`.               |
+| `skip_when_no_data` | `false` | Yes      | Skip the app when the area has no recent reports. Needs ScreenlyOS 26.9 or later.              |
+| `show_cached_data`  | `true`  | Yes      | Keep showing the last data while CDC cannot be reached.                                        |
+| `when_unreachable`  | `skip`  | Yes      | `skip` or `message` when CDC cannot be reached and nothing is cached.                          |
+| `override_locale`   | `en`    | Yes      | Locale for numbers and dates, such as `fr` or `pt-BR`. Labels stay in English.                 |
+| `display_errors`    | `false` | Yes      | Show errors on screen. For debugging only.                                                     |
+| `sentry_dsn`        | blank   | No       | Sentry client key for error reporting.                                                         |
 
 ## Data
 
@@ -150,6 +123,15 @@ bun run format
 bun run test         # unit tests for the query, the median and parsing
 bun run screenshots  # Playwright captures at each signage resolution
 ```
+
+## Screenshots
+
+`bun run screenshots` writes WebP files into `screenshots/`. California, the
+default, covers every supported player resolution as
+`california-{width}x{height}.webp`. Texas and New York (dark theme) are shot at
+1920x1080 and 1080x1920 only. The CDC answers are fixtures in `e2e/fixtures/`:
+real data moved back in whole weeks so the latest week ends just before the
+library's fixed screenshot clock.
 
 ## Deployment
 

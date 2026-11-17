@@ -28,7 +28,7 @@ settings:
       schema_version: 1
       properties:
         type: select
-        display_order: 2
+        display_order: 3
         help_text: |
           Light suits bright rooms and dark suits dim ones.
         options:
@@ -45,7 +45,7 @@ settings:
       schema_version: 1
       properties:
         type: string
-        display_order: 3
+        display_order: 2
         help_text: |
           Narrow the state down to the sites serving one county, such as Los Angeles. Needs a state. Leave blank for the whole state.
   skip_when_no_data:
@@ -57,7 +57,8 @@ settings:
       schema_version: 1
       properties:
         type: boolean
-        display_order: 4
+        advanced: true
+        display_order: 5
         help_text: |
           Skip this app in the playlist when CDC has no reports for the chosen area in the last few months, instead of saying so on screen. Needs ScreenlyOS 26.9 or later; other players show the message.
   show_cached_data:
@@ -69,7 +70,8 @@ settings:
       schema_version: 1
       properties:
         type: boolean
-        display_order: 5
+        advanced: true
+        display_order: 6
         help_text: |
           While CDC cannot be reached, keep showing the last data the screen received. CDC publishes weekly, so a short outage goes unnoticed. Turn off to skip the app or show a message instead.
   when_unreachable:
@@ -81,7 +83,8 @@ settings:
       schema_version: 1
       properties:
         type: select
-        display_order: 6
+        advanced: true
+        display_order: 7
         help_text: |
           What happens when CDC cannot be reached and there is no cached data to show. Skipping needs ScreenlyOS 26.9 or later; other players show the message.
         options:
@@ -99,7 +102,7 @@ settings:
       properties:
         type: string
         advanced: true
-        display_order: 7
+        display_order: 4
         help_text: |
           Show a single wastewater treatment site by its CDC ID, such as 112. Overrides State and County.
   override_locale:
