@@ -1,7 +1,7 @@
 ---
 syntax: manifest_v1
 description: 'CDC wastewater data for COVID-19, flu and RSV: virus levels for a US state, county or sewershed.'
-icon: https://playground.srly.io/edge-apps/icons/cdc-wastewater.svg
+icon: https://raw.githubusercontent.com/Screenly/cdc-wastewater-app/main/static/icon.svg
 author: Screenly, Inc.
 categories:
   - Dashboards
